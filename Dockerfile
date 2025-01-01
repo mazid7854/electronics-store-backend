@@ -1,5 +1,5 @@
 # Use a lightweight Java 21 base image
-FROM openjdk:21-jdk-slim
+FROM openjdk:17-jdk-slim
 
 # Set the working directory
 WORKDIR /app
